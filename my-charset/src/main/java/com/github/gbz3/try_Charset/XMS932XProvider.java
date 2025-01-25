@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class XMS932XProvider extends CharsetProvider {
-    private final List<Charset> charsets = List.of(Charset.forName("MS932"));
+    private final List<Charset> charsets = List.of(new XMS932XCharset("XMS932X", new String[] {}));
 
     @Override
     public Iterator<Charset> charsets() {
