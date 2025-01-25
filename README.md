@@ -24,3 +24,12 @@ $ mvn archetype:generate \
 -DarchetypeVersion=1.5 \
 -DinteractiveMode=false
 ```
+
+## 最小限
+
+- [JavaのCharsetを作る](https://qiita.com/tomo-92/items/946a221931fe8ffa18ac)
+
+```shell
+$ jshell --class-path my-charset/target/my-charset-1.0-SNAPSHOT.jar 0LEVEL.jsh
+charset = windows-31j
+```
